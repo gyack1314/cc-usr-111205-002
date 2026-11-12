@@ -1,0 +1,43 @@
+{
+  "support": [
+    0,
+    2,
+    5,
+    10,
+    null
+  ],
+  "people": [
+    {
+      "id": "a",
+      "grid": "g1",
+      "left": 5,
+      "right": null,
+      "exact_zero": false,
+      "weight": 1
+    }
+  ],
+  "cdf_times": [
+    2,
+    5,
+    10
+  ],
+  "quantiles": [
+    0.5,
+    0.9
+  ],
+  "loglik_drops": [
+    0,
+    0.5
+  ],
+  "bootstrap_draws": 99,
+  "seed": 1205,
+  "solver": {
+    "tolerance": 1e-09,
+    "iterations": 5000,
+    "starts": [
+      1,
+      7,
+      19
+    ]
+  }
+}
